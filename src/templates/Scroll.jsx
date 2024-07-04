@@ -7,7 +7,7 @@
 // 3 - enjoy
 import { addEffect, useFrame } from '@react-three/fiber'
 import Lenis from '@studio-freight/lenis'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useRef } from 'react'
 import * as THREE from 'three'
 
@@ -31,14 +31,17 @@ export default function Scroll({ children }) {
       direction: 'vertical', // vertical, horizontal
       gestureDirection: 'vertical', // vertical, horizontal, both
       smooth: true,
-      smoothTouch: false,
-      touchMultiplier: 2,
-      infinite: false,
+      smoothTouch: true,
+      syncTouch: true,
+      touchMultiplier: 1,
+      infinite: false
     })
 
     lenis.on('scroll', ({ scroll, progress }) => {
       state.top = scroll
       state.progress = progress
+      wrapper.current.setAttribute('data-progress', progress)
+      wrapper.current.setAttribute('data-scroll', scroll)
     })
     const effectSub = addEffect((time) => lenis.raf(time))
     return () => {
@@ -50,6 +53,7 @@ export default function Scroll({ children }) {
   return (
     <div
       ref={wrapper}
+      id='scroll-element'
       style={{
         position: 'absolute',
         overflow: 'hidden',
@@ -61,7 +65,7 @@ export default function Scroll({ children }) {
         ref={content}
         style={{
           position: 'relative',
-          minHeight: '200vh',
+          minHeight: '100vh',
         }}>
         {children}
       </div>
