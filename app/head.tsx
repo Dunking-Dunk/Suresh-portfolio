@@ -1,7 +1,7 @@
-const title = 'React Three Next Starter'
+const title = 'SSR Consultant'
 const url = 'https://react-three-next.vercel.app/'
-const description = 'The easiest and fastest way to create a 3D website using React Three Fiber and NextJS'
-const author = 'Author'
+const description = 'SSR Consultant specializes in optimizing manufacturing operations for the home appliances industry. With expertise in new product development, manufacturing line setup, and process automation, we deliver tailored solutions to enhance efficiency and quality. Our comprehensive services include project management, quality compliance, operations strategy, innovation adoption, and sustainability initiatives. We are dedicated to driving operational excellence and innovation, helping businesses stay competitive and achieve their goals.'
+const author = 'Suresh'
 const twitter = '@pmndrs'
 
 export default function Head() {
