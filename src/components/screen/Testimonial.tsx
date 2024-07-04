@@ -16,7 +16,7 @@ const testimonials = [
 const Testimonial = () => {
     return (
         <div className="lg:p-28 md:px-16 px-4 py-20 bg-card-foreground w-full h-full">
-            <InfiniteMovingCards items={testimonials} speed="slow" />
+            <InfiniteMovingCards items={testimonials} />
         </div>
     )
 }
