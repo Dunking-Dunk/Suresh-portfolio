@@ -12,7 +12,7 @@ const Hero = () => {
                     <p className="text-xl text-primary font-bold">2024</p>
                 </div>
                 <div className="lg:space-y-20 space-y-10">
-                    <h1 className="lg:text-[180px] md:text-8xl text-5xl font-semibold text-primary">SSR CONSULTANT</h1>
+                    <h1 className="lg:text-[180px] md:text-8xl text-5xl font-semibold text-primary">SSR CONSULTANCY</h1>
                     <TextGenerateEffect className="md:w-2/3 w-full" words={'Welcome to an exclusive tour into the professional life of a phenomenal senior consultant specializing in Manufacturing Business Excellence. Prepare your senses to be astounded as we delve deep into a world filled with new product development, operations strategy and quality enhancement.'} />
                     <Button>Continue Exploration</Button>
                 </div>

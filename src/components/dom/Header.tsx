@@ -20,9 +20,9 @@ const Header = () => {
                 <h3 className='text-3xl text-primary font-bold'>SSR Consultant</h3>
             </div>
             <div className={`flex lg:flex-row lg:items-center justify-evenly lg:w-1/3 lg:h-full max-lg:fixed  flex-col h-screen w-full left-0 top-0 ${open ? 'top-0' : 'top-[-150%]'} lg:text-sm text-6xl lg:bg-transparent  z-50 md:p-20 p-10 lg:p-0 transition-all ease-out duration-200 text-primary bg-primary-foreground`} ref={navbarRef}>
-                <Link href='#about' className='cursorOver'>About</Link>
-                <Link href='#service' className='cursorOver'>Service</Link>
-                <Link href='#contact' className='cursorOver'>Contact</Link>
+                <Link href='#about' className='cursorOver' onClick={handleOpen}>About</Link>
+                <Link href='#service' className='cursorOver' onClick={handleOpen}>Service</Link>
+                <Link href='#contact' className='cursorOver' onClick={handleOpen}>Contact</Link>
                 <div className="space-y-8 lg:hidden ">
                     <h5 className='text-2xl font-bold'>Socials</h5>
                     <div className='flex flex-row space-x-4'>
