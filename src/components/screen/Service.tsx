@@ -70,7 +70,8 @@ const Service = () => {
             </View>
             < div className="flex flex-col lg:gap-12 gap-4" >
                 <h3 className='md:text-8xl text-5xl md:font-normal font-semibold text-[var(--primary-color)]'>Our Services</h3>
-                <p className="lg:text-2xl text-xl lg:w-2/3 w-full">Our services are more than just solutions, they're opportunities to transform your digital presence and achieve your business objectives. We're here to make your digital dreams a reality.</p>
+                <p className="lg:text-2xl text-xl lg:w-2/3 w-full">
+                    Senior consultant specializing in Manufacturing Business Excellence with expertise in New Product/Category Development, Manufacturing Line Setup, Green and Brownfield Projects, Certification for Export, Strategy Planning, Lean Manufacturing, Operations Strategy, Innovation, Quality Enhancement, and Process Streamlining in the Home Appliances industry.</p>
             </div >
             <div className='mt-12 flex flex-col'>
                 <div className='flex lg:flex-row flex-col justify-between lg:p-24 py-4 gap-4 lg:border-b-2 border-b-0 border-[rgba(255,255,255,0.7)] z-10'

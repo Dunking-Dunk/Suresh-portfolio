@@ -31,8 +31,7 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col lg:w-4/6 w-full lg:items-end lg:gap-10 gap-4">
                     <div className="lg:space-x-12 space-x-4 text-xl">
-                        <Link className='cursorOver' href={'/'}>Instagram</Link>
-                        <Link className='cursorOver' href={'/'}>Linkedin</Link>
+                        <Link className='cursorOver' href={'https://www.linkedin.com/in/suresh-sr-5b77a9b6/'}>Linkedin</Link>
                     </div>
                     <div className="space-y-2 underline text-xl">
                         <p >somangali.suresh@gmail.com</p>

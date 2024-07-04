@@ -23,6 +23,13 @@ const Header = () => {
                 <Link href='#about' className='cursorOver'>About</Link>
                 <Link href='#service' className='cursorOver'>Service</Link>
                 <Link href='#contact' className='cursorOver'>Contact</Link>
+                <div className="space-y-8 lg:hidden ">
+                    <h5 className='text-2xl font-bold'>Socials</h5>
+                    <div className='flex flex-row space-x-4'>
+                        <Link className='cursorOver text-xl' href={'https://www.linkedin.com/in/suresh-sr-5b77a9b6/'}>Linkedin</Link>
+                    </div>
+
+                </div>
             </div>
             <div className={`lg:hidden flex flex-col ${open ? 'justify-center items-center' : 'justify-between'} w-6 h-5 cursor-pointer right-14 z-50 `} onClick={handleOpen}>
                 <span className={`rounded-md h-0.5 transition-transform ease-out duration-400 bg-black ${open ? 'w-full rotate-45 translate-y-0.5' : 'w-[40%]'}`} />

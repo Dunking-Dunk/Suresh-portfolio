@@ -17,7 +17,7 @@ function Planet(props: GroupProps) {
             <directionalLight intensity={1.179} decay={2} rotation={[-0.048, 0.26, 0.185]} scale={0.1} />
             <OrthographicCamera makeDefault={true} far={100000} near={0} position={[-1.124, 6.776, -14.817]} rotation={[-2.417, -0.143, -3.016]} scale={0.01} />
             <mesh position={[-0.18, 0.33, -9.705]} rotation={[2.8, -0.473, Math.PI]} scale={0.03} >
-                <sphereGeometry args={[180, 32, 64]} />
+                <sphereGeometry args={[200, 32, 64]} />
                 <meshStandardMaterial map={planetTexture} roughness={0.6} metalness={0.9} />
             </mesh>
         </group>

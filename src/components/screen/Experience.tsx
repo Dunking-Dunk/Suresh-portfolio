@@ -44,21 +44,21 @@ const Experience = () => {
             <div className="grid lg:grid-cols-3 grid-rows-1 gap-14 text-secondary mt-10 lg:p-28 md:p-14 px-4 py-16 md:gap-20">
                 <CardContainer>
                     <div className="space-y-6">
-                        <Image alt='experience image' src={require('../../../public/img/machine/1.webp')} className="h-96 rounded-3xl" />
+                        <Image alt='experience image' src={require('../../../public/img/machine/1.webp')} className="h-80 rounded-3xl" />
                         <h4 className="font-medium text-3xl">Mixer Grinder</h4>
                         <p className="text-muted-foreground font-semibold">Expert in setting up manufacturing line for Mixer Grinders.</p>
                     </div>
                 </CardContainer>
                 <CardContainer>
                     <div className="space-y-6">
-                        <Image alt='experience image' src={require('../../../public/img/machine/4.webp')} className="h-96 rounded-3xl" />
+                        <Image alt='experience image' src={require('../../../public/img/machine/4.webp')} className="h-80 rounded-3xl" />
                         <h4 className="font-medium text-3xl">Electric Cooker</h4>
                         <p className="text-muted-foreground font-semibold">Proficient in Electric Rice Cooker, Gas Stove, Conventional Cooker, and Lunch Box Manufacturing Line Setup.</p>
                     </div>
                 </CardContainer>
                 <CardContainer>
                     <div className="space-y-6">
-                        <Image alt='experience image' src={require('../../../public/img/loader/3.webp')} className="h-96 rounded-3xl" />
+                        <Image alt='experience image' src={require('../../../public/img/loader/3.webp')} className="h-80 rounded-3xl" />
                         <h4 className="font-medium text-3xl">Export Certification</h4>
                         <p className="text-muted-foreground font-semibold">Helping you clear Export Certification with ease and efficiency.</p>
                     </div>
